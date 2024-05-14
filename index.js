@@ -5,7 +5,7 @@ function calcularVelocidade() {
     
     var velocidade = k * concentracaoInicial;
 
-    document.getElementById('resultado').innerHTML = "A velocidade da reação é: " + velocidade.toFixed(2) + " M/s";
+    document.getElementById('resultado').innerHTML = "A velocidade da reação é: " + velocidade.toFixed(2) + " Mol/s";
 }
 function calcularVelocidade() {
     var k = parseFloat(document.getElementById('kValue').value);
@@ -13,5 +13,5 @@ function calcularVelocidade() {
     
     var velocidade = (k * concentracaoInicial);
 
-    document.getElementById('resultado').innerHTML = "A velocidade da reação é: " + velocidade.toFixed(3) + " M/s";
+    document.getElementById('resultado').innerHTML = "A velocidade da reação é: " + velocidade.toFixed(3) + " Mol/s";
 }
